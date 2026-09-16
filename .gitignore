@@ -1,0 +1,8 @@
+# Salidas del script utilitario y extracción local
+generated-diff/
+extracted_contracts/
+
+# Archivos del sistema y Python
+.DS_Store
+__pycache__/
+*.pyc
