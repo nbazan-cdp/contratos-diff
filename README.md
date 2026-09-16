@@ -58,3 +58,15 @@ contratos-diff/
 ├── Reporte_Contratos_XXXXXX.html   # Reporte HTML exportado de CleverTap
 ├── generated-diff/                 # (Se crea automáticamente) Reportes de salida
 └── .gitignore
+```
+
+---
+
+### ▶️ Modo de Uso
+
+1. Colocá el archivo `contracts-ios.zip` y el HTML con la captura de CleverTap en la raíz del proyecto.
+2. Ejecutá el script desde la terminal:
+   ```text
+      python3 generate.py
+   ```
+3. Abrí el reporte generado ubicado en `generated-diff/Reporte_Contratos_<TIMESTAMP>.html` en cualquier navegador web.
